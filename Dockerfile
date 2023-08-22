@@ -1,4 +1,4 @@
-FROM gcr.io/kaniko-project/executor::v1.14.0 as kaniko
+FROM gcr.io/kaniko-project/executor:v1.14.0 as kaniko
 
 FROM node:12-alpine
 USER root
